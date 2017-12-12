@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('../font/sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('../font/sourcesanspro-bold-webfont.woff') format('woff'),
+         url('../font/SourceSansPro-Bold')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+			}
+
+body{
+	background: #005883;
+	color: #000000;
+	font-family: "SourceSansPro-Bold", Helvetica, Verdana;
+	font-size: 2em; 
+	}
+
+.menuCSS3 ul {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		
+	}
+	.menuCSS3 a {
+		display: block;
+		padding: 10px;
+		background-color: #005883;
+		text-decoration: none;
+		color: white;
+		
+	}
+	.menuCSS3 a:hover {
+		background-color: black;
+	}
+	.menuCSS3 ul li ul {
+		display: none;
+	}
+	.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+		display: block;
+	}
+
+#contenedor{
+	width: 1000px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+section{
+	width: 600px;
+	height: 1050px;
+	float: left;
+	border-style: solid;
+	border-color: black;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin bottom: 10px;
+		}
+
+aside{
+	width: 300px;
+	height: 1050px;
+	float: left;
+	border-style: solid;
+	border-color: black;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin bottom: 10px;
+	margin-left: 20px;
+		}
+
+header{
+	background: #00583;
+	height: 100%
+	float: left;
+}
+
+
+#contenido{
+	margin: auto;
+	border: 5px solid #000000;
+	margin-top: 5px;
+	float: left;
+	widows: 700px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background: white;
+	text-align: justify;
+}
+
+.articulos{
+	margin: 10px;
+}
+.articulos{
+	font-size: 30px;
+	padding: 5px;
+}
+
+.articulos p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+
+aside h3{
+	font-size: 20px;
+	color: #000000;
+	background: #ffffff;
+	border-radius: 4px;
+	text-align: center;
+	padding: 10px;
+}
+
+aside p{
+	padding: 10px;
+	font-size: 14px;
+	font-family: arial;
+	text-align: center;
+	margin: auto;
+}
+
+h1, h2, h3 {
+color: black, bold;
+			}
+
+footer{
+	height: 900px;
+	background: #000000;
+	color: #ffffff;
+	clear: both;
+	overflow: both;
+}
+footer{
+	font-size: 15px;
+	line-height: 30px;
+}
